@@ -14,7 +14,7 @@ Getting Started
 
    .. code:: python
 
-      extensions = ['sphinxcontrib-viewsource']
+      extensions = ['sphinxcontrib.viewsource']
 
 3. Define a caption text and link resolution function at the end of your ``conf.py`` file:
 
