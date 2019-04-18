@@ -4,7 +4,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='sphinxcontrib-viewsource',
-    version='0.1.2',
+    version='0.1.3',
     url='https://github.com/dgarcia360/sphinxcontrib-viewsource',
     # download_url='http://pypi.python.org/pypi/sphinxcontrib-viewsource',
     license='MIT',
