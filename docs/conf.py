@@ -58,7 +58,7 @@ viewsource_title = 'Edit on GitHub'
 
 
 def viewsource_resolve_link(file_path, language=None):
-    base_url = 'https://github.com/dgarcia360/sphinxcontrib-viewsource/docs/snippets/'
+    base_url = 'https://github.com/dgarcia360/sphinxcontrib-viewsource/blob/master/docs/snippets/'
     # get the name of the file
     path_split = file_path.split('/')
     file = path_split[len(path_split) - 1]

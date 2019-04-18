@@ -22,10 +22,11 @@ Getting Started
 
       viewsource_title = 'Edit on GitHub'
       def viewsource_resolve_link(file_path, language=None):
-        base_url = 'https://github.com/dgarcia360/sphinxcontrib-viewsource/docs/'
+        base_url = 'https://github.com/dgarcia360/sphinxcontrib-viewsource/blob/master/docs/snippets/'
+        # get the name of the file
         path_split = file_path.split('/')
-        path = "/".join(path_split[len(path_split)-2:])
-        return base_url + path
+        file = path_split[len(path_split)-1]
+        return base_url + file
 
 4. Use ``viewsource`` directive instead of ``literalinclude`` when rendering code:
 
@@ -85,7 +86,7 @@ Point to an external file
 
       viewsource_title = 'Edit on Github'
       def viewsource_resolve_link(file_path, language=None):
-        base_url = 'https://github.com/dgarcia360/sphinxcontrib-viewsource/docs/snippets/'
+        base_url = 'https://github.com/dgarcia360/sphinxcontrib-viewsource/blob/master/docs/snippets/'
         # get the name of the file
         path_split = file_path.split('/')
         file = path_split[len(path_split)-1]
@@ -102,7 +103,7 @@ Different link resolution strategy per language
         path_split = file_path.split('/')
         file = path_split[len(path_split)-1]
 
-        url = 'https://github.com/dgarcia360/sphinxcontrib-viewsource/python/%s' % file
+        url = 'https://github.com/dgarcia360/sphinxcontrib-viewsource/blob/master/docs/python/%s' % file
         if language == 'java':
-            return  'https://github.com/dgarcia360/sphinxcontrib-viewsource/java/src/%s' % file
+            return 'https://github.com/dgarcia360/sphinxcontrib-viewsource/blob/master/docs/java/src/%s' % file
         return url
