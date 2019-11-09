@@ -75,3 +75,20 @@ The ``viewsource`` extends from ``literalinclude``, so you can still use all the
     }
 
 6. Build the docs.
+
+Roadmap
+=======
+
+See the `open issues <https://github.com/dgarcia360/sphinxcontrib-viewsource/issues>`_ for a list of proposed features.
+
+Contributing
+============
+
+Contributions are welcome and appreciated! Check `CONTRIBUTING.md  <CONTRIBUTING.md>`_ file.
+
+License
+=======
+
+Copyright (c) 2019 David Garcia (`@dgarcia360 <https://davidgarcia.dev>`_).
+
+Licensed under MIT license (see `LICENSE.md <LICENSE.md>`_ for details)

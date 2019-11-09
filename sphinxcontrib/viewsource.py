@@ -1,4 +1,8 @@
-# -*- coding: utf-8 -*-
+# -*- encoding: utf-8 -*-
+#
+# (c) 2019 David Garcia (@dgarcia360)
+# This code is licensed under MIT license (see LICENSE.md for details)
+
 from docutils import nodes, utils
 from sphinx.directives.code import LiteralInclude
 from sphinx.util.nodes import split_explicit_title
