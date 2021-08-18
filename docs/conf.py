@@ -52,6 +52,8 @@ pygments_style = 'sphinx'
 # Output file base name for HTML help builder.
 htmlhelp_basename = 'sphinxcontrib-viewsource'
 
+html_baseurl = 'https://david-garcia-sphinxcontrib-viewsource.readthedocs-hosted.com/'
+
 sitemap_filename = "site.xml"
 
 # -- Options for viewsource --------------------------
