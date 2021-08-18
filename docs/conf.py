@@ -52,6 +52,7 @@ pygments_style = 'sphinx'
 # Output file base name for HTML help builder.
 htmlhelp_basename = 'sphinxcontrib-viewsource'
 
+sitemap_filename = "site.xml"
 
 # -- Options for viewsource --------------------------
 viewsource_title = 'Edit on GitHub'
