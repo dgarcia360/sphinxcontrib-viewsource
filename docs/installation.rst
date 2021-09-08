@@ -5,7 +5,7 @@ Installation
 Getting Started
 ===============
 
-1. Install sphinxcontrib-viewsource using pip.
+1. Install ``sphinxcontrib-viewsource`` using pip.
 
 .. code-block:: bash
 
